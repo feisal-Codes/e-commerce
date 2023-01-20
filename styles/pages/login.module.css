@@ -1,0 +1,89 @@
+/* contains styles for login, registration, shipping, payment method and place order page */
+/* each class is preceded with the name of the page i.e paymentmethod etc */
+/* some classes have reused  */
+
+.login__container {
+  min-height: 100vh;
+  padding-top: 5em;
+}
+.login__form {
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.shipping__shipping__form {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 1em;
+  margin:0 auto
+}
+
+.paymentmethod__payment_method {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 100%;
+  /* padding: 1em; */
+  /* background-color: red; */
+}
+
+.paymentmethod__payment_form {
+  width: 60%;
+}
+
+.placeorder__place_order_hide_on_pc {
+  display: none;
+}
+
+.placeorder__shipping_address {
+  background-color: #f9f9f9;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* mobile design */
+
+@media only screen and (max-device-width: 480px) {
+  .shipping__shipping__form {
+    max-width: 100%;
+  }
+  .paymentmethod__payment_method {
+    align-items: start;
+  }
+  .paymentmethod__payment_form {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .placeorder__place_order_hide_on_pc {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .placeorder__place_order_hide_on_mobile {
+    display: none;
+  }
+  .placeorder__place_order__container {
+    padding: 1em;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding-bottom: 2em;
+  }
+
+  .placeorder__shipping_address {
+    padding-left: 1.5em;
+  }
+}

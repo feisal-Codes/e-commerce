@@ -1,0 +1,52 @@
+.product_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+}
+
+.product_title > h5 {
+    margin-left: 2.3em
+
+}
+
+
+.product_title> h6{
+    margin-right: 2.8em;
+}
+
+.products{
+  width:95%
+}
+
+
+/* media breakpoints for mobile phone both landscape and potrait */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  
+.products{
+    width:100%;
+    padding-left:5px;
+    
+  }
+
+
+  .product_title > h5 {
+    margin-left: 0.6em
+
+}
+
+
+.product_title h6 {
+    margin-right: 0.6em;
+}
+
+
+
+}
+
+@media only screen and (max-device-width : 320px){
+
+    
+}

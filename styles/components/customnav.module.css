@@ -1,0 +1,32 @@
+/* this styles sheet contains 
+styles for components; Nav, sidebarcategory and layout */
+
+.layout{
+    /* margin:0; */
+    /* padding:0; */
+    width:100%;
+    /* background-color: blue; */
+}
+
+.nav__container{
+    background-color:#f4f4f1; 
+    flex-wrap: nowrap;
+     overflow-x: auto;
+     justify-content: center;
+     
+
+}
+.nav__link{
+    color:black;
+    
+    font-size:18px;  
+    font-weight:700
+}
+
+.nav__link:hover{
+    color:purple
+}
+.nav__link:active{
+    color:red
+}
+

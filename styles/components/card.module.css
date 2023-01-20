@@ -1,0 +1,72 @@
+.card {
+  cursor: pointer;
+  /* background-color: #fafafa; */
+  background-color: #ffffff;
+
+  margin-bottom: 2em;
+  padding: 0;
+  width: 191px;
+  height: 253px;
+}
+
+.card__body {
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 0;
+}
+.card__image {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 1.4em;
+}
+
+.card__content{
+    margin-left:3px;
+}
+
+.card__text{
+    padding:0; 
+    margin:3px;
+}
+
+.card__button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #9a4c9a;
+    margin-bottom: 0.5em
+}
+
+
+@media only screen  and (max-device-width : 480px) {
+
+ 
+.card{
+    width:170px
+} 
+
+
+}
+
+
+    
+@media only screen  and (max-device-width : 380px)  {
+
+
+    .card{
+        width:170px
+    }
+    
+    
+    }
+
+    
+@media only screen and (max-device-width : 320px)  {
+
+
+    .card{
+        width:150px
+    }
+    
+    
+    }

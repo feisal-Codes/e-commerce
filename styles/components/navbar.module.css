@@ -1,0 +1,72 @@
+.navbar__logo {
+  padding-left: 20px;
+  width: 260px;
+  height: 60px;
+  /* background-color:red; */
+}
+.navbar__close{
+  display: none;
+}
+
+.navbar__collapse {
+  display: flex;
+flex-direction: row;
+width:100%
+}
+
+.navbar__form{
+    display:flex;
+    flex-grow: 0.7
+}
+
+.navbar__nav{
+    flex-grow: 0.3;
+    justify-content: space-around;
+}
+.navbar__cart{
+    color: #9a4c9a
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .navbar__logo {
+    padding-left: 2px;
+    width: 160px;
+    height: 40px;
+  }
+  .navbar__collapse {
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 8.3%;
+    height: 100vh;
+    z-index: 99;
+
+
+    /* width: 100%; */
+  }
+
+  .navbar__form{
+      margin: 25% 10px;
+      margin-bottom: 10px;
+      height: fit-content;
+      flex-grow: unset;
+  }
+  .navbar__nav{
+      margin-left: 10px;
+  }
+   .navbar__dropdown{
+       /* background-color: red; */
+       margin:5px
+   }
+
+   
+.navbar__close{
+  display: block;
+}
+
+
+
+}
